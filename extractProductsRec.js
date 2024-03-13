@@ -1,7 +1,6 @@
-const API_URL = "http://localhost:3000/products";
 const MAX_RETURNED_PRODUCTS = 1_000;
 const MAX_PRICE = 100_000;
-// const apiUrl = "https://api.ecommerce.com/products";
+const API_URL = "https://api.ecommerce.com/products";
 
 async function main() {
   let allProducts = await extractProducts(API_URL, 1, MAX_PRICE);
